@@ -32,7 +32,7 @@ class Connect  {
     // Appends binary data to the DB and store location in hashmap
     public void write (String key, String value) throws IOException {
         rafDb.seek(database.length());
-        String data = key+","+value;
+        String data = value;
         byte[] infoBin = data.getBytes("UTF-8");
         String byteData = "";
         for (byte b : infoBin) {
@@ -53,7 +53,7 @@ class Connect  {
         for (String line : lines) {
             data += (char) Integer.parseInt(line, 2);
         }
-        return data.replaceAll(".*,", "");
+        return data;
     }
 
     // Looks if hashmap exists and uses it or creates a new

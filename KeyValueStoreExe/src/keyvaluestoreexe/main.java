@@ -19,12 +19,18 @@ public class main {
      * @throws java.io.FileNotFoundException
      */
     // Write
-    public static void main(String[] args) throws FileNotFoundException, IOException {
+   /* public static void main(String[] args) throws FileNotFoundException, IOException {
         Connect connect = new Connect();
         if (args.length >= 2){
             connect.write(args[0], args[1]);
         } else {
-            System.out.println(connect.read(args[0]));
+            println(connect.read(args[0]));
         }
+    }
+    */
+    public static void main(String[] args) throws FileNotFoundException, IOException {
+        Connect connect = new Connect();
+            System.out.println(connect.read("1"));
+            System.out.println(connect.read("2"));
     }
 }
