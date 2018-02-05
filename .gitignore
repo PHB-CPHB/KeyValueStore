@@ -1,10 +1,10 @@
 # KeyValueStoreExercise
-KeyValueStoreExercise/KeyValueStoreExe/build.xml
-KeyValueStoreExercise/KeyValueStoreExe/manifest.mf
-KeyValueStoreExercise/KeyValueStoreExe/nbproject/*
-KeyValueStoreExercise/KeyValueStoreExe/build/*
-KeyValueStoreExercise/KeyValueStoreExe/nbbuild/*
-KeyValueStoreExercise/KeyValueStoreExe/dist/*
+KeyValueStoreExe/build.xml
+KeyValueStoreExe/manifest.mf
+KeyValueStoreExe/nbproject/*
+KeyValueStoreExe/build/*
+KeyValueStoreExe/nbbuild/*
+KeyValueStoreExe/dist/*
 
 *.DS_Store
 
