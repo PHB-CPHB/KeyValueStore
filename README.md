@@ -17,7 +17,7 @@ You can also just down the two files main.java and Connect.java by following thi
 3. Write javac foldername/*.java (If you have cloned the project you should write javac keyvaluestoreexe/*.java)
 
 4. Write to the database by using following
-  - java foldername/main Argument1 Argument2 (Exsample: java keyvaluestoreexe/main 1 Kasper)
+  - java foldername/main Argument1 Argument2 (Exsample: java keyvaluestoreexe/main 1 test)
 
 5. Read from the database by using following
   - java foldername/main Argument1 (Exsample: java keyvaluestoreexe/main 1)
